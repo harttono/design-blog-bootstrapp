@@ -58,6 +58,10 @@ img{
   color:#ffffff;
   font-size:.8rem;
 }
+.hero-post-badges > a:hover{
+  text-decoration:none;
+  color: #7952B3;
+}
 .hero-post-content{
   position:absolute;
   bottom:10px;
@@ -107,7 +111,7 @@ img .rounded-circle{
 }
 .badge > a:hover{
   text-decoration:none;
-  color:#0000ff;
+  color:#111111;
 }
 
 
@@ -147,7 +151,7 @@ img .rounded-circle{
 }
 .badges > a:hover{
   text-decoration:none;
-  color:#0000ff;
+  color:#111111;
 }
 /* Footer */
 .footer{
