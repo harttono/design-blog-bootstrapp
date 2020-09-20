@@ -3,11 +3,11 @@ a{
   color:#7952B3;
 }
 input{
-  background-color:#1F2833  !important;
+  background-color:#ffffff  !important;
   color:#7952B3 !important;
 }
 input::placeholder{
-  color:#dedede !important;
+  columns: #111111 !important;
 }
 body{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -28,6 +28,10 @@ img{
   background:#0B0C10;
   border-bottom:.1rem solid rgba(0,0,0,.8);
 }
+.navbar a{
+  color:#ffffff !important;
+}
+
 .navbar-brand,.footer-logo{
   font-weight:bold;
   font-size:1.5rem;
@@ -121,7 +125,7 @@ img .rounded-circle{
   background-color:#7952B3;
   font-size:1.3rem;
 }
-.social-link .col-sm-4:hover{
+.social-link .col-4:hover{
   background-color:#1F2833;
   cursor: pointer;
 }
@@ -167,4 +171,34 @@ img .rounded-circle{
 }
 .footer p{
   font-size:.9rem;
+} 
+
+
+
+/* Mobile Design Styling */
+@media screen and (max-width:576px){
+
+  .navbar{
+    position: relative !important;
+  }
+  .form-inline{
+    flex-wrap: nowrap !important;
+  }
+  .navbar-dark{
+    color:#7952B3 !important;
+  }
+  .navbar-toggler{
+    border:.1rem solid #ffffff !important;
+  }
+
+  /* Hero Post */
+  .hero-post-content{
+    position:absolute;
+    bottom:1px;
+    color:#ffffff;
+    padding-left:1px;
+  }
+  .col-lg-8{
+    margin-bottom:1rem;
+  }
 }

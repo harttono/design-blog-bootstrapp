@@ -3,7 +3,7 @@ import React,{Component, Fragment} from 'react';
 export default function App(){
     return (
         <Fragment>
-            	<nav className="navbar navbar-expand-lg">
+            	<nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container">
                   <a className="navbar-brand" href="#">Blog</a>
                   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,15 +43,15 @@ export default function App(){
                       <div className="hero-post shadow">
                         <img className="img-fluid  img-size-custom" alt="" src="img/img-jumbo.jpg"/>
                         <div className="hero-post-badges text-center">
-                          <a href="#" className="p-2 px-3 mb-2"><i className="fa fa-calendar-o mr-2"></i>  15 march 2020</a>
+                          <a href="#" className="p-2 px-3 mb-2 mb-xs-1"><i className="fa fa-calendar-o mr-2"></i>  15 march 2020</a>
                           <a href="#" className="p-2 px-3">Technology</a>
                         </div>
                         <div className="hero-post-content">
                           <div className="row">
-                            <div className="col-md-3">
+                            <div className="col-md-3 col-sm-3 col-3">
                               <img className="img-fluid rounded-circle" alt="" src="img/img1.jpg"/>
                             </div>
-                            <div className="col-md-9">
+                            <div className="col-md-9 col-sm-9 col-9">
                               <p>My Post Bla.....</p>
                             </div>
                           </div>
@@ -59,7 +59,7 @@ export default function App(){
                       </div>
                     </div>
                     <div className="col-lg-4">
-                      <div className="hero-post shadow mb-3">
+                      <div className="hero-post shadow mb-3 ">
                         <img className="img-fluid" alt="" src="img/img-jumbo.jpg"/>
                         <div className="hero-post-badges text-center">
                           <a href="#" className="p-2 px-3 mb-2"><i className="fa fa-calendar-o mr-2"></i>  15 march 2020</a>
@@ -67,10 +67,10 @@ export default function App(){
                         </div>
                         <div className="hero-post-content">
                           <div className="row">
-                            <div className="col-md-3">
+                            <div className="col-md-3 col-sm-3 col-3">
                               <img className="img-fluid rounded-circle" alt="" src="img/img1.jpg"/>
                             </div>
-                            <div className="col-md-9">
+                            <div className="col-md-9 col-sm-9 col-9">
                               <p>My Post Bla.....</p>
                             </div>
                           </div>
@@ -84,10 +84,10 @@ export default function App(){
                         </div>
                         <div className="hero-post-content">
                           <div className="row">
-                            <div className="col-md-3">
+                            <div className="col-md-3 col-sm-3 col-3">
                               <img className="img-fluid rounded-circle" alt="" src="img/img1.jpg"/>
                             </div>
-                            <div className="col-md-9">
+                            <div className="col-md-9 col-sm-9 col-9">
                               <p>My Post Bla.....</p>
                             </div>
                           </div>
@@ -100,7 +100,7 @@ export default function App(){
               <section className="blog-posts py-4">
                 <div className="container">
                   <div className="row">
-                    <div className="col-md-8">
+                    <div className="col-md-8 mb-2">
                       <article className="blog-post mb-3">
                         <div className="row">
                         <div className="col-sm-4">
@@ -131,7 +131,7 @@ export default function App(){
                         </div>
                       </div>
                     </article>
-                    <article className="blog-post  mb-3">
+                      <article className="blog-post  mb-3">
                       <div className="row">
                         <div className="col-sm-4">
                           <img src="img/img1.jpg" alt="" className="img-fluid"/>
@@ -146,7 +146,7 @@ export default function App(){
                         </div>
                       </div>
                     </article>
-                    <article className="blog-post  mb-3">
+                      <article className="blog-post  mb-3">
                       <div className="row">
                         <div className="col-sm-4">
                           <img src="img/img1.jpg" alt="" className="img-fluid"/>
@@ -165,17 +165,17 @@ export default function App(){
               
                     <aside className="col-md-4">
                       <div className="row social-link text-center">
-                        <div className="col-sm-4 py-4 social-link">
+                        <div className="col-4 py-4 social-link">
                           <a className="w-100">
                             <i className="fa fa-facebook-official text-primary" aria-hidden="true"></i>
                           </a>
                         </div>
-                        <div className="col-sm-4 py-4 social-link ">
+                        <div className="col-4 py-4 social-link ">
                         <a className="w-100 text-info">
                           <i className="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                       </div>
-                      <div className="col-sm-4 py-4 social-link">
+                      <div className="col-4 py-4 social-link">
                         <a className="w-100 ">
                           <i className="fa fa-youtube text-danger" aria-hidden="true"></i>
                         </a>
@@ -183,10 +183,10 @@ export default function App(){
                       </div>
                       <h4 className="aside-heading mt-4 pl-2 mb-3">Popular Artist</h4>
                       <article className="row author mb-3">
-                        <div className="col-sm-4">
+                        <div className="col-sm-4 col-4">
                           <img className="img-fluid rounded-circle shodow" alt="" src="img/img1.jpg"/>
                         </div>
-                        <div className="col-sm-8">
+                        <div className="col-sm-8 col-8">
                           <h5 className="m-0">Jhono Doe</h5>
                           <p className="m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                           <div className="author-social-link">
@@ -197,10 +197,10 @@ export default function App(){
                         </div>
                       </article>
                       <article className="row author mb-3">
-                        <div className="col-sm-4">
+                        <div className="col-sm-4 col-4">
                           <img className="img-fluid rounded-circle shodow" alt="" src="img/img1.jpg"/>
                         </div>
-                        <div className="col-sm-8">
+                        <div className="col-sm-8 col-8">
                           <h5 className="m-0">Jhono Doe</h5>
                           <p className="m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                           <div className="author-social-link">
@@ -211,10 +211,10 @@ export default function App(){
                         </div>
                       </article>
                       <article className="row author mb-3">
-                        <div className="col-sm-4">
+                        <div className="col-sm-4  col-4">
                           <img className="img-fluid rounded-circle shodow" alt="" src="img/img1.jpg"/>
                         </div>
-                        <div className="col-sm-8">
+                        <div className="col-sm-8 col-8 ">
                           <h5 className="m-0">Jhono Doe</h5>
                           <p className="m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                           <div className="author-social-link">
@@ -225,10 +225,10 @@ export default function App(){
                         </div>
                       </article>
                       <article className="row author mb-3">
-                        <div className="col-sm-4">
+                        <div className="col-sm-4 col-4">
                           <img className="img-fluid rounded-circle shodow" alt="" src="img/img1.jpg"/>
                         </div>
-                        <div className="col-sm-8">
+                        <div className="col-sm-8 col-8">
                           <h5 className="m-0">Jhono Doe</h5>
                           <p className="m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                           <div className="author-social-link">
